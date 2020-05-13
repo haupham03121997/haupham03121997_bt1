@@ -513,7 +513,36 @@
    
    @media screen and (max-width: 1200px) {}
    
-   @media screen and (max-width: 992px) {}
+   @media screen and (max-width: 992px) {
+       .carousel__detail h1 {
+           font-size: 3rem;
+       }
+       .contact-us__detail h2 {
+           font-size: 2.5rem;
+       }
+       .contact-us__detail .btn-contact-us {
+           margin-top: 20px;
+       }
+       .number__content__title h2 {
+           font-size: 2.5rem;
+           padding: 0 40px;
+       }
+       .number__detail__item span {
+           font-size: 3rem;
+       }
+       .number__detail__item h3 {
+           font-size: 1.2rem;
+       }
+       .our-service__content__title__item h2 {
+           font-size: 2.5rem;
+       }
+       .feedback__carousel .item__details img {
+           width: 150px;
+       }
+       .feedback__carousel .item__details p {
+           font-size: 14px;
+       }
+   }
    
    @media screen and (max-width: 768px) {
        .navbar-nav--custom {
